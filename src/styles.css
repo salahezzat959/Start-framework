@@ -1,1 +1,50 @@
+.star {
+  color:white;
+  position: relative;
+}
+
+.star::before {
+  content: "";
+  width: 9%;
+  height: 12%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  left: 52%;
+}
+
+.star::after {
+  content: "";
+  width: 9%;
+  height: 12%;
+  background-color: white;
+  position: absolute;
+  top: 50%;
+  right: 52%;
+}
+
+.star1 {
+  color:#212529;
+  position: relative;
+}
+
+.star1::before {
+  content: "";
+  width: 9%;
+  height: 12%;
+  background-color: #212529;
+  position: absolute;
+  top: 50%;
+  left: 52%;
+}
+
+.star1::after {
+  content: "";
+  width: 9%;
+  height: 12%;
+  background-color: #212529;
+  position: absolute;
+  top: 50%;
+  right: 52%;
+}
 /* You can add global styles to this file, and also import other style files */

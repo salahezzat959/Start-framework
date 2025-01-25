@@ -1,0 +1,10 @@
+.about {
+  background-color: #1ABC9C;
+  text-align: center;
+  padding: 35px;
+  color: white;
+}
+
+.paragraph div {
+  width: 45%;
+}
